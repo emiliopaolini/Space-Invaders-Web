@@ -1,0 +1,109 @@
+@font-face {
+    font-family: spaceInvadersFont;
+   	src: url(space_invaders.woff);
+}
+
+body{
+	background-color: black;
+}
+#immagineTitolo{
+	margin-top: 10px;
+	width:100%;
+	height: 350px;
+}
+#map{
+	float: left;
+	width: 1500px;
+	height: 800px;
+	border: 5px solid white;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+#player{
+	background-image: url("./../img/greenShip.png");
+	width:60px;
+	height: 32px;	
+	position: absolute;
+}
+
+#infoContainer{
+	float:left; 
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size:70px;
+    font-family: spaceInvadersFont,sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+}
+#scoreContainer,#score,#levelContainer{
+	display: inline-block;
+	margin-top: 100px;
+}
+
+#lifeContainer{
+	margin-top: 100px;
+}
+#level{
+	display: inline-block;
+}
+#score,#level{
+	color:lightgreen;
+}
+#testoTutorial{
+	font-size: 50px;
+	font-family: spaceInvadersFont,sans-serif;
+	font-weight: 900;
+	line-height: 120px;
+	color: white;
+	text-align: center;
+	background-color: transparent;
+	box-sizing: border-box;
+	/*margin-left: 15%;
+	top: 20px;*/
+	position: relative;
+}
+#missile,.enemyMissile{
+	background-image: url("./../img/bullet.png");
+	width: 6px;
+	height: 17px;	
+	position: absolute;
+}
+#enemy{
+	background-image: url("./../img/InvaderC1.png");
+	width: 72px;
+	height: 48px;
+	background-repeat: none;	
+	position: absolute;
+}
+input[type=button]{
+	font-size: 80px;
+	font-family: spaceInvadersFont,sans-serif;
+    font-weight: 900;
+    line-height: 120px;
+    color:white;
+   	width:90%;
+   	background-color: transparent;
+    border: 5px solid #ccc;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+input[type=button]:hover{
+	opacity: 0.5;
+}
+a{
+    text-decoration: none;
+}
+#gameOverContainer{
+	color:white;
+	font-size:40px;
+    font-family: spaceInvadersFont,sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+	position: relative;
+	top:10%;
+	margin-top: -35px;
+}

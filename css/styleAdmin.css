@@ -1,0 +1,96 @@
+@font-face {
+    font-family: spaceInvadersFont;
+   	src: url(space_invaders.woff);
+}
+
+
+body{
+	background-color: black;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+#msgContainer,#postContainer{
+    color:white;
+    font-family: sans-serif;
+    font-size: 30px;
+    height: 40%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align:auto;
+}
+
+.msgs{
+    height:200px;
+    border: 5px solid #fff;
+    position: relative;
+}
+.msgBody,.msgOwner{
+    display: inline-block;
+}
+.msgOwner{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+}
+
+#title,#title2{
+    color:white;
+    text-align: center;
+    font-size:70px;
+    font-family: spaceInvadersFont,sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+}
+#footer{
+    border-top: 5px solid white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 50px;
+    font-family: spaceInvadersFont,sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    color: white ;
+    text-align: center;
+}
+#homeContainer,#socialContainer{
+    float:left;
+    width:49%;
+}
+#homeContainer{
+    border-right: 5px solid white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    opacity: 0.8;
+}
+.posts{
+    height:200px;
+    border: 5px solid #fff;
+    position: relative;
+}
+
+.postBody,.postOwner{
+    display: inline-block;
+}
+.postOwner{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+}
+.deleteButton{
+    position: absolute; 
+    right: 0; 
+    top: 5px;   
+}
+img:hover{
+    opacity: 0.8;
+}

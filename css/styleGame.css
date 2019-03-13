@@ -1,0 +1,164 @@
+@font-face {
+    font-family: spaceInvadersFont;
+   	src: url(space_invaders.woff);
+}
+
+body{
+	background-color: black;
+}
+#immagineTitolo{
+	margin-top: 10px;
+	width:100%;
+	height: 350px;
+}
+#shield0,#shield1,#shield2{
+	background-image: url("./../img/shield.png");
+	width:176px;
+	height: 128px;	
+	position: absolute;
+}
+
+#map{
+	float: left;
+	width: 1500px;
+	height: 800px;
+	border: 5px solid white;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+#player{
+	
+	width:60px;
+	height: 32px;	
+	position: absolute;
+}
+.red{
+	background-image: url("./../img/redShip.png");
+}
+.green{
+	background-image: url("./../img/greenShip.png");
+}
+.yellow{
+	background-image: url("./../img/yellowShip.png");
+}
+.pink{
+	background-image: url("./../img/pinkShip.png");
+}
+#bonusEnemy{
+	background-image: url("./../img/RedInvader.png");
+	width:48px;
+	height: 32px;	
+	position: absolute;
+}
+
+.missile,.enemyMissile{
+	background-image: url("./../img/bullet.png");
+	width: 6px;
+	height: 17px;	
+	position: absolute;
+}
+.enemy1{
+	background-image: url("./../img/InvaderC1.png");
+	width: 72px;
+	height: 48px;
+	background-repeat: none;	
+	position: absolute;
+}
+.enemy2{
+	background-image: url("./../img/InvaderB1.png");
+	width: 72px;
+	height: 48px;
+	background-repeat: none;	
+	position: absolute;
+}
+.enemy3{
+	background-image: url("./../img/InvaderA1.png");
+	width: 72px;
+	height: 48px;
+	background-repeat: none;	
+	position: absolute;
+}
+#infoContainer{
+	float:left; 
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size:70px;
+    font-family: spaceInvadersFont,sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+}
+#gameOverContainer{
+	color:white;
+	font-size:70px;
+    font-family: spaceInvadersFont,sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+	position: relative;
+	top:10%;
+	margin-top: -35px;
+}
+#scoreContainer,#score,#levelContainer{
+	display: inline-block;
+	margin-top: 100px;
+}
+
+#lifeContainer{
+	margin-top: 100px;
+}
+#level{
+	display: inline-block;
+}
+#score,#level{
+	color:lightgreen;
+}
+input[type=button]{
+	font-size: 80px;
+	font-family: spaceInvadersFont,sans-serif;
+    font-weight: 900;
+    line-height: 120px;
+    color:white;
+   	width:90%;
+   	background-color: transparent;
+    border: 5px solid #ccc;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+input[type=button]:hover{
+	opacity: 0.5;
+}
+a{
+    text-decoration: none;
+}
+#secondo{
+	font-size: 300px;
+	font-family: spaceInvadersFont,sans-serif;
+	font-weight: 900;
+	line-height: 120px;
+	color: white;
+	width: 90%;
+	background-color: transparent;
+	box-sizing: border-box;
+	margin-left: 44%;
+	top: 40%;
+	position: relative;
+}
+#recordBattuto{
+	color:red;
+}
+.explosion{
+	background-image: url("./../img/explosion.png");
+	width: 32px;
+	height: 32px;	
+	position: absolute;
+}
+#explosion{
+	background-image: url("./../img/explosion.png");
+	width: 64px;
+	height: 64px;	
+	position: absolute;
+}
