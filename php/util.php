@@ -1,10 +1,10 @@
 <?php
 
 	function get_my_db(){
-		$dbHost="localhost";
-		$user="root";
+		$dbHost="";
+		$user="";
 		$pass="";
-		$nomeDb="spaceinvaders";
+		$nomeDb="";
  	   	static $db;
     	if (!$db) {
         	$db = new mysqli($dbHost, $user, $pass,$nomeDb);
